@@ -13,6 +13,11 @@ class child extends parent {
 	void age() {
 		System.out.println("Age of child is 25"); // if we override we will get child element output.
 	}
+	
+	void display() {
+		
+		System.out.println("To check Downcasting");
+	}
 
 }
 
@@ -27,6 +32,8 @@ public class Inheritance2 {
 		c.age();
 
 		((child) c).age();  //Downcasting
+		
+		((child)c).display();
 
 	}
 
