@@ -31,9 +31,9 @@ public class Inheritance2 {
 
 		c.age();
 
-		((child) c).age();  //Downcasting
+		((child) c).age();  // Here no use of downcasting 
 		
-		((child)c).display();
+		((child)c).display();  //Downcasting is needed if we write it like this c.display; it will not work so wowncasting is needed
 
 	}
 
