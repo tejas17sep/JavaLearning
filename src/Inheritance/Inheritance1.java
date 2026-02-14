@@ -14,8 +14,11 @@ class alpha{
 class Beta extends alpha{
 	
 	void show() {
-		System.out.println("Alpha Class");
+		System.out.println("Beta Class");
+		System.out.println(age);
 	}
+	
+	
 }
 
 public class Inheritance1 {
@@ -25,6 +28,7 @@ public class Inheritance1 {
 	Beta beta = new Beta();
 	
 	beta.disp();
+	beta.show();
 	
 	}
 }
