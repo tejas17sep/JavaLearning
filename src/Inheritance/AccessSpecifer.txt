@@ -1,0 +1,23 @@
+1 public
+2 protected
+3 default
+4 private
+
+
+
+public void t(){
+
+}
+
+protected void t(){
+
+}
+
+default void t(){
+
+}
+
+private void t(){
+
+}
+
