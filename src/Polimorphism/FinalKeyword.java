@@ -7,6 +7,7 @@ class Telusko {
 //	Final Keyword Participate in inheritance but override is not allowed
 	
 	// Final int a = 10; Final Variable cannot be change in whole project.
+	//Abstract cannot be final we cannot write Abstract and Final
 	void course() {
 		System.out.println("Telusko has both live and recorded");
 	}
